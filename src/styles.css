@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 35px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+  color: #ccc;
+}
+
+.body-container {
+  max-width: 825px;
+  min-width: 450px;
+  margin: 0 auto;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-text {
+  font-size: 18px;
+}
+
+.searchbar-container {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.text-label {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+  font-weight: 300;
+  font-size: 13px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ccc;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ccc;
+  font-weight: 300;
+  font-size: 13px;
+}
